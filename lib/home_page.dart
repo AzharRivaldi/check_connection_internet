@@ -14,8 +14,6 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   Map _source = {ConnectivityResult.none: false};
   final NetworkConnection _connectivity = NetworkConnection.instance;
-  final nrkController = TextEditingController();
-  final passwordController = TextEditingController();
   String _signal = "red";
   String _status = "";
 
